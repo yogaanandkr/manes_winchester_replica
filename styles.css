@@ -1,0 +1,655 @@
+* {
+    margin: 0;
+}
+
+body {
+    background-color: rgba(0, 0, 0, 0.113);
+
+}
+
+div p {
+    /* color: rgba(0, 0, 0, 0.486); */
+
+}
+
+.top_heading {
+    width: 100%;
+    height: 35px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: sticky;
+    top: 0;
+    background-color: white;
+    color: #708d81;
+}
+
+
+
+
+.title {
+    width: 40%;
+    font-weight: 900;
+    font-size: px;
+}
+
+.links {
+    width: 20%;
+
+
+}
+
+
+.top_heading ul {
+
+    /* width: 55%; */
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+}
+
+.navbar {
+    width: 100%;
+    height: 150px;
+    background-color: #708d81;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.navbar .title {
+    width: 20%;
+}
+
+.navbar .links {
+    width: 40%;
+    margin-top: 20px;
+}
+
+.navbar ul {
+    /* width: 73%; */
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+}
+
+.top_heading a,
+.navbar a {
+    text-decoration: none;
+    color: black;
+}
+
+.navbar a {
+    color: white;
+}
+
+.top_heading a:hover,
+.navbar a:hover {
+    text-decoration: underline;
+}
+
+
+/* ============================== */
+/* placehold */
+.placehold {
+    width: 100%;
+    height: 130px;
+    /* background-color: aqua; */
+    display: flex;
+    justify-content: center;
+    padding-bottom: 20px;
+}
+
+.placehold .one {
+    width: 40%;
+    text-align: start;
+    border-right: 1px solid rgba(0, 0, 0, 0.26)
+}
+
+.placehold .two {
+    width: 20%;
+    /* height: 100px; */
+    margin-left: 50px;
+}
+
+.placehold .one p {
+    width: 95%;
+    text-wrap: wrap;
+}
+
+.placehold .one,
+.placehold .two {
+    display: flex;
+    flex-direction: column;
+    /* justify-content: space-between; */
+    align-items: center;
+}
+
+.placehold .one h1,
+.placehold .two h3 {
+    margin: 10px 0px 10px 0px;
+    color: #708d81;
+}
+
+.two figure {
+    position: relative;
+}
+
+.two footer {
+    margin-top: 20px;
+    position: absolute;
+    right: 0;
+}
+
+/* placecards */
+
+.placecards {
+    padding-top: 20px;
+    width: 100%;
+    height: 400px;
+    background-color: rgba(128, 128, 128, 0.229);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.placecards .head {
+    width: 60%;
+    color: #708d81;
+}
+
+.placecards .cards {
+    width: 60%;
+}
+
+.placecards .head p {
+    font-size: 20px;
+}
+
+.placecards .cards {
+    display: flex;
+    justify-content: space-between;
+}
+
+.placecards .card {
+    height: 350px;
+    width: 250px;
+    /* background-color: aliceblue; */
+}
+
+.placecards .card img {
+    height: 150px;
+    width: 230px;
+    border: 10px solid white;
+    box-shadow: 0px 5px 10px black;
+}
+
+
+
+.placecards .content p {
+    padding: 5px 0px;
+}
+
+.placecards .content {
+    padding-top: 10px;
+    height: 110px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.placecards button {
+    width: 100px;
+    height: 30px;
+    background-color: rgba(28, 27, 27, 0.683);
+    color: white;
+    border: none;
+    border-radius: 2px;
+}
+
+/* ABFOOT */
+
+.abfoot {
+    padding-top: 10px;
+    height: 150px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    background-color: rgba(0, 0, 0, 0.196);
+    color: rgba(0, 0, 0, 0.486);
+    padding-bottom: 10px;
+}
+
+.abfoot .ab {
+    width: 60%;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.ab>div {
+    width: 30%;
+}
+
+
+.abfoot .title {
+    padding: 10px 0px;
+    width: 100%;
+}
+
+.abfoot p {
+    /* width: 70%; */
+}
+
+.abfoot .one {
+    border-right: 1px solid rgba(0, 0, 0, 0.552);
+
+}
+
+.abfoot .two {
+    border-right: 1px solid black;
+}
+
+.abfoot button {
+    margin-top: 20px;
+    width: 80%;
+    height: 30px;
+    background-color: rgba(28, 27, 27, 0.683);
+    color: white;
+    border: none;
+    border-radius: 2px;
+}
+
+/* footer */
+.footer {
+    margin-top: 10px;
+    height: 40px;
+    width: 100%;
+    background-color: #708d81;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 50px;
+}
+
+.footer .content {
+    width: 60%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer .copy {
+    color: white;
+}
+
+.footer .ins {
+    /* background-color: blue; */
+    color: palevioletred;
+}
+
+.footer .fb {
+    background-color: white;
+    color: blue;
+    border: none;
+}
+
+.footer .tw {
+    background-color: white;
+    color: skyblue;
+}
+
+.footer .gl {
+    color: red;
+    background-color: white;
+}
+
+button:hover {
+    cursor: pointer;
+}
+
+
+
+/* about page */
+
+.contents {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    text-align: start;
+}
+
+.contents>h1,
+.contents>div {
+    width: 60%;
+}
+
+.contents img {
+    width: 99%;
+    border: 10px groove rgba(255, 255, 255, 0.404);
+}
+
+.contents .p1,
+.contents .p2,
+.contents .p3,
+.contents .p4 {
+    padding: 20px 0px;
+}
+
+.contents .pt {
+    font-size: 20px;
+    color: #708d81;
+}
+
+.contents .aboutus {
+    font-size: 25px;
+    color: #708d81;
+}
+
+.contents>div {
+    padding: 10px 0px;
+}
+
+/* practices */
+.practices {
+    display: flex;
+    width: 100%;
+    height: fit-content;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.practices .left {
+    width: 20%;
+    position: relative;
+    border-right: 1px solid black;
+    padding-right: 20px;
+}
+
+.practices .left ul {
+    list-style: none;
+    /* position: absolute; */
+    left: -30px;
+
+}
+
+.practices .left ul li {
+    margin-top: 30px;
+    padding: 10px 0px;
+    border-top: 1px dotted black;
+}
+
+.practices .left ul a li {
+    /* color: black; */
+}
+
+.practices .left ul a {
+    text-decoration: none;
+    color: #708d81;
+}
+
+.practices .left ul a:hover {
+    color: #708d8179;
+}
+
+.practices .left ul a:nth-child(3) li {
+    border-bottom: 1px dotted black;
+    padding-bottom: 30px;
+}
+
+.left .client {
+    margin: 10px 0px;
+}
+
+/* .left .client .clientp {
+    margin-top: 10px;
+    position: relative;
+} */
+
+/* .left .client .clientp .name {
+    position: absolute;
+    right: 100px;
+} */
+
+.client figure {
+    position: relative;
+    width: 90%;
+    text-align: justify;
+}
+
+.client footer {
+    position: absolute;
+    right: 0;
+}
+
+.client h2 {
+    margin-bottom: 10px;
+}
+
+.practices .right {
+    width: 40%;
+    margin-left: 80px;
+}
+
+.practices .right h1 {
+    margin-bottom: 20px;
+}
+
+
+.img1 h2,
+.img2 h2,
+.img3 h2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 25px;
+    background-color: gray;
+    position: absolute;
+    font-size: 100%;
+    text-align: center;
+    bottom: 0;
+}
+
+.imgs .img1,
+.imgs2 .img2,
+.imgs3 .img3 {
+    position: relative;
+}
+
+.img2 h2,
+.img3 h2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* width: 100%; */
+    height: 25px;
+    background-color: gray;
+    position: absolute;
+    font-size: 100%;
+    text-align: center;
+    bottom: 0;
+}
+
+.practices .right .imgs>div {
+    height: 200px;
+    width: 200px;
+    background-color: aqua;
+    display: inline;
+}
+
+.practices .right .imgs2>div,
+.practices .right .imgs3>div {
+    height: 200px;
+    width: 200px;
+    background-color: aqua;
+    display: inline;
+}
+
+.images {
+    display: flex;
+    justify-content: space-between;
+}
+
+
+/* outlawyers */
+
+.sec1 h3 {
+    margin-bottom: 10px;
+}
+
+.right .sec1 .card1 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.right .sec1 .card1 img {
+    border: 10px groove rgba(255, 255, 255, 0.404);
+
+}
+
+.right .sec1 .card1 .p {
+    width: 80%;
+}
+
+.sec1 .card1 .p h5 {
+    margin-bottom: 10px;
+}
+
+.sec1 .card1 .p {
+    height: 100px;
+    /* background-color: aqua; */
+    display: flex;
+    flex-direction: column;
+    /* align-items: start; */
+    /* justify-content: space-between; */
+}
+
+.right .newscard {
+    height: 200px;
+    width: 100%;
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 30px;
+}
+
+.right img {
+    height: 180px;
+    border: 10px groove rgba(255, 255, 255, 0.404);
+}
+
+.right .newscard .content {
+    margin-top: 20px;
+    width: 70%;
+    position: relative;
+}
+
+.right .newscard button {
+
+    margin-top: 20px;
+    position: absolute;
+    right: 10px;
+    height: 30px;
+    background-color: rgba(28, 27, 27, 0.683);
+    color: white;
+    border: none;
+}
+
+.right .newscard button:hover {
+
+    background-color: rgba(28, 27, 27, 0.383);
+}
+
+.contact {
+    /* height: 750px; */
+}
+
+.contact .left li {
+    display: flex;
+    /* justify-content: space-between; */
+}
+
+.contact .left li .icon {
+    margin-right: 10px;
+}
+
+.contact li {
+    border-top: none;
+}
+
+.practices {
+    display: flex;
+    width: 100%;
+    height: fit-content;
+    justify-content: center;
+    /* margin-bottom: 20px; */
+}
+
+.practices .left {
+    width: 20%;
+    position: relative;
+    border-right: 1px solid black;
+    padding-right: 20px;
+}
+
+.practices .left ul {
+    list-style: none;
+    /* position: absolute; */
+    left: -30px;
+
+}
+
+.practices .left ul li {
+    margin-top: 30px;
+    padding: 10px 0px;
+    border-top: 1px dotted black;
+}
+
+.practices .left ul a li {
+    /* color: black; */
+}
+
+.practices .left ul a {
+    text-decoration: none;
+    color: #708d81;
+}
+
+.practices .left ul a:hover {
+    color: #708d8179;
+}
+
+.practices .left ul a:nth-child(3) li {
+    border-bottom: 1px dotted black;
+    padding-bottom: 30px;
+}
+
+.contact .right form {
+    margin-top: 50px;
+}
+
+.contact .right form input {
+    margin-bottom: 15px;
+    width: 100%;
+}
+
+.contact .right form label {
+    margin-bottom: 3px;
+}
+
+.contact .right form button {
+    margin-top: 20px;
+    height: 30px;
+    background-color: rgba(28, 27, 27, 0.683);
+    color: white;
+    border: none;
+}
+
+body button:hover {
+
+    background-color: rgba(28, 27, 27, 0.383);
+}
